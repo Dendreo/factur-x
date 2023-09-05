@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
-use Models\EN16931\DataType\Identifier\InvoiceLineIdentifier;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\InvoiceLineIdentifier;
 
 /**
  * BT-126-00.

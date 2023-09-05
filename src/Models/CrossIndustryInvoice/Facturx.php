@@ -5,10 +5,9 @@ declare(strict_types=1);
 namespace Dendreo\FacturX\Models\CrossIndustryInvoice;
 
 use Dendreo\FacturX\Models\CrossIndustryInvoice\FacturXAttachment;
-use Dendreo\FacturX\Fpdi\FdpiFacturx;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\Fpdi\FdpiFacturx;
 use setasign\Fpdi\PdfParser\StreamReader;
 use Smalot\PdfParser\Parser;
-
 class FacturX
 {
     private const FACTURX_FILENAME = 'factur-x.xml';

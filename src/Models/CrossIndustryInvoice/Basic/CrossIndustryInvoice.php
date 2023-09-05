@@ -6,7 +6,7 @@ use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SupplyChainTradeT
 use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ExchangedDocument;
 use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ExchangedDocumentContext;
 
-class CrossIndustryInvoice extends \Dendreo\FacturX\BasicWL\CrossIndustryInvoice
+class CrossIndustryInvoice extends \Dendreo\FacturX\Models\CrossIndustryInvoice\BasicWL\CrossIndustryInvoice
 {
     public function __construct(
         ExchangedDocumentContext $exchangedDocumentContext,
