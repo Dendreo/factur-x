@@ -1,0 +1,12 @@
+{
+    "name": "dendreo/factur-x",
+    "type": "library",
+    "require": {
+        "smalot/pdfparser": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dendreo\\FacturX\\": "src/"
+        }
+    }
+}
