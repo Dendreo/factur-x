@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Identifier\SpecificationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SpecificationIdentifier;
 
 /**
  * BG-2

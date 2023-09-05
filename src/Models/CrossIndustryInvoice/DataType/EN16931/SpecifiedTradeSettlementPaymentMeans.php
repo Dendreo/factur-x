@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\ApplicableTradeSettlementFinancialCard;
-use Dendreo\FacturX\DataType\PayeeSpecifiedCreditorFinancialInstitution;
-use Dendreo\FacturX\DataType\PayerPartyDebtorFinancialAccount;
-use Models\EN16931\BusinessTermsGroup\CreditTransfer;
-use Models\EN16931\BusinessTermsGroup\PaymentCardInformation;
-use Models\EN16931\BusinessTermsGroup\PaymentInstructions;
-use Models\EN16931\DataType\Identifier\DebitedAccountIdentifier;
-use Models\EN16931\DataType\Identifier\PaymentServiceProviderIdentifier;
-use Models\EN16931\DataType\PaymentMeansCode;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ApplicableTradeSettlementFinancialCard;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\PayeeSpecifiedCreditorFinancialInstitution;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\PayerPartyDebtorFinancialAccount;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\CreditTransfer;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\PaymentCardInformation;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\PaymentInstructions;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\DebitedAccountIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PaymentServiceProviderIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\PaymentMeansCode;
 
 /**
  * BG-16.
  */
-class SpecifiedTradeSettlementPaymentMeans extends \Dendreo\FacturX\DataType\BasicWL\SpecifiedTradeSettlementPaymentMeans
+class SpecifiedTradeSettlementPaymentMeans extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SpecifiedTradeSettlementPaymentMeans
 {
     /**
      * BT-82.
@@ -67,7 +67,7 @@ class SpecifiedTradeSettlementPaymentMeans extends \Dendreo\FacturX\DataType\Bas
         return $this;
     }
 
-    public function setPayeePartyCreditorFinancialAccount(PayeePartyCreditorFinancialAccount|\Dendreo\FacturX\DataType\BasicWL\PayeePartyCreditorFinancialAccount|null $payeePartyCreditorFinancialAccount): static
+    public function setPayeePartyCreditorFinancialAccount(PayeePartyCreditorFinancialAccount|Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PayeePartyCreditorFinancialAccount|null $payeePartyCreditorFinancialAccount): static
     {
         if (null !== $payeePartyCreditorFinancialAccount && !$payeePartyCreditorFinancialAccount instanceof PayeePartyCreditorFinancialAccount) {
             throw new \TypeError();

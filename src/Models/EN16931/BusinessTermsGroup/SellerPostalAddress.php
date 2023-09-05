@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Address;
-use Models\EN16931\DataType\CountryAlpha2Code;
+use Dendreo\FacturX\Models\EN16931\DataType\Address;
+use Dendreo\FacturX\Models\EN16931\DataType\CountryAlpha2Code;
 
 /**
  * BG-5

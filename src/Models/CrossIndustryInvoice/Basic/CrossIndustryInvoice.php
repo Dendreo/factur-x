@@ -1,10 +1,10 @@
 <?php
 
-namespace Dendreo\FacturX\Dendreo\FacturX\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\Basic;
 
-use Dendreo\FacturX\DataType\Basic\SupplyChainTradeTransaction;
-use Dendreo\FacturX\DataType\BasicWL\ExchangedDocument;
-use Dendreo\FacturX\DataType\ExchangedDocumentContext;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SupplyChainTradeTransaction;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ExchangedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ExchangedDocumentContext;
 
 class CrossIndustryInvoice extends \Dendreo\FacturX\BasicWL\CrossIndustryInvoice
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\Identifier\BuyerIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BuyerIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BT-46-0 & BT-46-1.

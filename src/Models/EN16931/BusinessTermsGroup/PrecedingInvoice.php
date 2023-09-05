@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Reference\PrecedingInvoiceReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\PrecedingInvoiceReference;
 
 /**
  * BG-3

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Dendreo\FacturX\DataType\BasicWL\PayeeSpecifiedLegalOrganization;
-use Models\EN16931\BusinessTermsGroup\Payee;
-use Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
-use Models\EN16931\DataType\Identifier\PayeeIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PayeeSpecifiedLegalOrganization;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\Payee;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PayeeIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BG-10.

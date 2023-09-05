@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
-use Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
-use Models\EN16931\DataType\Identifier\SellerIdentifier;
-use Models\EN16931\DataType\Identifier\TaxRegistrationIdentifier;
-use Models\EN16931\DataType\Identifier\VatIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SellerIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\TaxRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\VatIdentifier;
 
 /**
  * BG-4

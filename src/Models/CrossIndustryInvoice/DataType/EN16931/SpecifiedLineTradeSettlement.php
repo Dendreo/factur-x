@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\AdditionalReferencedDocumentInvoiceLineObjectIdentifier;
-use Dendreo\FacturX\DataType\Basic\ApplicableTradeTax;
-use Dendreo\FacturX\DataType\Basic\SpecifiedTradeSettlementLineMonetarySummation;
-use Dendreo\FacturX\DataType\BillingSpecifiedPeriod;
-use Dendreo\FacturX\DataType\ReceivableSpecifiedTradeAccountingAccount;
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
-use Models\EN16931\BusinessTermsGroup\InvoiceLinePeriod;
-use Models\EN16931\DataType\Identifier\ObjectIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AdditionalReferencedDocumentInvoiceLineObjectIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\ApplicableTradeTax;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SpecifiedTradeSettlementLineMonetarySummation;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BillingSpecifiedPeriod;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ReceivableSpecifiedTradeAccountingAccount;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLinePeriod;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ObjectIdentifier;
 
 /**
  * BG-30-00.
  */
-class SpecifiedLineTradeSettlement extends \Dendreo\FacturX\DataType\Basic\SpecifiedLineTradeSettlement
+class SpecifiedLineTradeSettlement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SpecifiedLineTradeSettlement
 {
     /**
      * BT-128-00.

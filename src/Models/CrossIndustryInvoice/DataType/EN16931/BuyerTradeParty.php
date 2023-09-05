@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\BasicWL\PostalTradeAddress;
-use Dendreo\FacturX\DataType\BuyerGlobalIdentifier;
-use Dendreo\FacturX\DataType\DefinedTradeContact;
-use Dendreo\FacturX\DataType\SpecifiedTaxRegistrationVA;
-use Dendreo\FacturX\DataType\URIUniversalCommunication;
-use Models\EN16931\BusinessTermsGroup\Buyer;
-use Models\EN16931\BusinessTermsGroup\BuyerContact;
-use Models\EN16931\DataType\Identifier\BuyerIdentifier;
-use Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
-use Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
-use Models\EN16931\DataType\Identifier\VatIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PostalTradeAddress;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BuyerGlobalIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DefinedTradeContact;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTaxRegistrationVA;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\URIUniversalCommunication;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\Buyer;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\BuyerContact;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BuyerIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\VatIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BG-7.
  */
-class BuyerTradeParty extends \Dendreo\FacturX\DataType\BasicWL\BuyerTradeParty
+class BuyerTradeParty extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\BuyerTradeParty
 {
     /**
      * BG-9.
@@ -42,7 +42,7 @@ class BuyerTradeParty extends \Dendreo\FacturX\DataType\BasicWL\BuyerTradeParty
         return $this->specifiedLegalOrganization;
     }
 
-    public function setSpecifiedLegalOrganization(BuyerSpecifiedLegalOrganization|\Dendreo\FacturX\DataType\Minimum\BuyerSpecifiedLegalOrganization|null $specifiedLegalOrganization): static
+    public function setSpecifiedLegalOrganization(BuyerSpecifiedLegalOrganization|Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\BuyerSpecifiedLegalOrganization|null $specifiedLegalOrganization): static
     {
         if (null !== $specifiedLegalOrganization && !$specifiedLegalOrganization instanceof BuyerSpecifiedLegalOrganization) {
             throw new \TypeError();

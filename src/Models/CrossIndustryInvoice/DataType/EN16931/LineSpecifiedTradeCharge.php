@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\ChargeIndicator;
-use Models\EN16931\BusinessTermsGroup\InvoiceLineCharge;
-use Models\EN16931\DataType\ChargeReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ChargeIndicator;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLineCharge;
+use Dendreo\FacturX\Models\EN16931\DataType\ChargeReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-28.
  */
-class LineSpecifiedTradeCharge extends \Dendreo\FacturX\DataType\Basic\LineSpecifiedTradeCharge
+class LineSpecifiedTradeCharge extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\LineSpecifiedTradeCharge
 {
     /**
      * BT-143.

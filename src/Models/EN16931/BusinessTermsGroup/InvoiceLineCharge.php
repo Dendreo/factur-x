@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\ChargeReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\EN16931\DataType\ChargeReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-28

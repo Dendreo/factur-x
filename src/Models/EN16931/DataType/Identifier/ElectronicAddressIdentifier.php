@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType\Identifier;
+namespace Dendreo\FacturX\Models\EN16931\DataType\Identifier;
 
-use Models\EN16931\DataType\ElectronicAddressScheme;
+use Dendreo\FacturX\Models\EN16931\DataType\ElectronicAddressScheme;
 
 class ElectronicAddressIdentifier
 {

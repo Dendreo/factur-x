@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\BasicWL\PostalTradeAddress;
-use Dendreo\FacturX\DataType\BasicWL\SellerSpecifiedLegalOrganization;
-use Dendreo\FacturX\DataType\DefinedTradeContact;
-use Dendreo\FacturX\DataType\SellerGlobalIdentifier;
-use Dendreo\FacturX\DataType\SpecifiedTaxRegistrationFC;
-use Dendreo\FacturX\DataType\SpecifiedTaxRegistrationVA;
-use Dendreo\FacturX\DataType\URIUniversalCommunication;
-use Models\EN16931\BusinessTermsGroup\Seller;
-use Models\EN16931\BusinessTermsGroup\SellerContact;
-use Models\EN16931\DataType\Identifier\SellerIdentifier;
-use Models\EN16931\DataType\Identifier\TaxRegistrationIdentifier;
-use Models\EN16931\DataType\Identifier\VatIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PostalTradeAddress;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SellerSpecifiedLegalOrganization;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DefinedTradeContact;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SellerGlobalIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTaxRegistrationFC;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTaxRegistrationVA;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\URIUniversalCommunication;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\Seller;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\SellerContact;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SellerIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\TaxRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\VatIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BG-4.
  */
-class SellerTradeParty extends \Dendreo\FacturX\DataType\BasicWL\SellerTradeParty
+class SellerTradeParty extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SellerTradeParty
 {
     /**
      * BT-33.

@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\AllowanceIndicator;
-use Models\EN16931\BusinessTermsGroup\InvoiceLineAllowance;
-use Models\EN16931\DataType\AllowanceReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AllowanceIndicator;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLineAllowance;
+use Dendreo\FacturX\Models\EN16931\DataType\AllowanceReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-27.
  */
-class LineSpecifiedTradeAllowance extends \Dendreo\FacturX\DataType\Basic\LineSpecifiedTradeAllowance
+class LineSpecifiedTradeAllowance extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\LineSpecifiedTradeAllowance
 {
     /**
      * BT-138.

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\ElectronicAddressScheme;
-use Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\ElectronicAddressScheme;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ElectronicAddressIdentifier;
 
 /**
  * BT-34-00 or BT-49-00.

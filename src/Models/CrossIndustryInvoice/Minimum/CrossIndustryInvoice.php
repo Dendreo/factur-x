@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\Minimum;
 
-use Dendreo\FacturX\DataType\ExchangedDocumentContext;
-use Dendreo\FacturX\DataType\Minimum\ExchangedDocument;
-use Dendreo\FacturX\DataType\Minimum\SupplyChainTradeTransaction;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ExchangedDocumentContext;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\ExchangedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\SupplyChainTradeTransaction;
 
 class CrossIndustryInvoice
 {

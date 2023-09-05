@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\Converter;
+namespace Dendreo\FacturX\Models\EN16931\Converter;
 
-use Models\EN16931\DataType\DateCode2005;
-use Models\EN16931\DataType\DateCode2475;
+use Dendreo\FacturX\Models\EN16931\DataType\DateCode2005;
+use Dendreo\FacturX\Models\EN16931\DataType\DateCode2475;
 
 class DateCode2005ToDateCode2475Converter
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\TaxTotalAmount;
-use Models\EN16931\DataType\CurrencyCode;
-use Models\EN16931\Invoice;
-use Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\TaxTotalAmount;
+use Dendreo\FacturX\Models\EN16931\DataType\CurrencyCode;
+use Dendreo\FacturX\Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
 
 /**
  * BG-22.
  */
-class SpecifiedTradeSettlementHeaderMonetarySummation extends \Dendreo\FacturX\DataType\BasicWL\SpecifiedTradeSettlementHeaderMonetarySummation
+class SpecifiedTradeSettlementHeaderMonetarySummation extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SpecifiedTradeSettlementHeaderMonetarySummation
 {
     /**
      * BT-114.

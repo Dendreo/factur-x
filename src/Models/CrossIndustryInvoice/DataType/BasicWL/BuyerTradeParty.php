@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\BuyerGlobalIdentifier;
-use Dendreo\FacturX\DataType\Minimum\BuyerSpecifiedLegalOrganization;
-use Dendreo\FacturX\DataType\SpecifiedTaxRegistrationVA;
-use Dendreo\FacturX\DataType\URIUniversalCommunication;
-use Models\EN16931\DataType\Identifier\BuyerIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BuyerGlobalIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\BuyerSpecifiedLegalOrganization;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTaxRegistrationVA;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\URIUniversalCommunication;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BuyerIdentifier;
 
 /**
  * BG-7.
  */
-class BuyerTradeParty extends \Dendreo\FacturX\DataType\Minimum\BuyerTradeParty
+class BuyerTradeParty extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\BuyerTradeParty
 {
     /**
      * BT-46.

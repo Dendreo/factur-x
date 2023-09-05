@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType\Identifier;
+namespace Dendreo\FacturX\Models\EN16931\DataType\Identifier;
 
 class TaxRegistrationIdentifier
 {

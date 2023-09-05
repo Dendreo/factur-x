@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\ActualDeliverySupplyChainEvent;
-use Dendreo\FacturX\DataType\DespatchAdviceReferencedDocument;
-use Dendreo\FacturX\DataType\ShipToTradeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ActualDeliverySupplyChainEvent;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DespatchAdviceReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ShipToTradeParty;
 
 /**
  * BG-13-00.
  */
-class ApplicableHeaderTradeDelivery extends \Dendreo\FacturX\DataType\Minimum\ApplicableHeaderTradeDelivery
+class ApplicableHeaderTradeDelivery extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\ApplicableHeaderTradeDelivery
 {
     /**
      * BG-13.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType;
+namespace Dendreo\FacturX\Models\EN16931\DataType;
 
 /**
  * Mime type codes - Mime codes (BT-125-1)

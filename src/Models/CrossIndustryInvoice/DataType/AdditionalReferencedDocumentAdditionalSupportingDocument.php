@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\AdditionalSupportingDocument;
-use Models\EN16931\DataType\BinaryObject;
-use Models\EN16931\DataType\MimeCode;
-use Models\EN16931\DataType\Reference\SupportingDocumentReference;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\AdditionalSupportingDocument;
+use Dendreo\FacturX\Models\EN16931\DataType\BinaryObject;
+use Dendreo\FacturX\Models\EN16931\DataType\MimeCode;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\SupportingDocumentReference;
 
 /**
  * BG-24.

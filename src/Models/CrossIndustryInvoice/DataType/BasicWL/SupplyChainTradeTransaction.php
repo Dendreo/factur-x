@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
 /**
  * BG-25-00.
  */
-class SupplyChainTradeTransaction extends \Dendreo\FacturX\DataType\Minimum\SupplyChainTradeTransaction
+class SupplyChainTradeTransaction extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\SupplyChainTradeTransaction
 {
     public function __construct(
         ApplicableHeaderTradeAgreement $applicableHeaderTradeAgreement,

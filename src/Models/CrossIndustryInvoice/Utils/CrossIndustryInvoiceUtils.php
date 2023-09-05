@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\Utils;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\Utils;
 
-use Models\EN16931\DataType\Identifier\SpecificationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SpecificationIdentifier;
 
 class CrossIndustryInvoiceUtils
 {

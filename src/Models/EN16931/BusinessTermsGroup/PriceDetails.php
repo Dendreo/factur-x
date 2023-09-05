@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\UnitOfMeasurement;
-use Models\EN16931\SemanticDataType\Quantity;
-use Models\EN16931\SemanticDataType\UnitPriceAmount;
+use Dendreo\FacturX\Models\EN16931\DataType\UnitOfMeasurement;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Quantity;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\UnitPriceAmount;
 
 /**
  * BG-29

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\Reference\ProjectReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\ProjectReference;
 
 /**
  * BT-11-00.

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\ItemTypeCode;
+use Dendreo\FacturX\Models\EN16931\DataType\ItemTypeCode;
 
 class ClassCode
 {

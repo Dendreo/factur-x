@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\CountryAlpha2Code;
-use Models\EN16931\DataType\Identifier\BuyerItemIdentifier;
-use Models\EN16931\DataType\Identifier\ItemClassificationIdentifier;
-use Models\EN16931\DataType\Identifier\SellerItemIdentifier;
-use Models\EN16931\DataType\Identifier\StandardItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\CountryAlpha2Code;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BuyerItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ItemClassificationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SellerItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\StandardItemIdentifier;
 
 /**
  * BG-31

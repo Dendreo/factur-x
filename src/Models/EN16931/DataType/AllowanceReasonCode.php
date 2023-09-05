@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType;
+namespace Dendreo\FacturX\Models\EN16931\DataType;
 
 /**
  * UNTDID 5189 - Allowance codes (BT-140 / BT-98)

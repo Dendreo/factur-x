@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Models\EN16931\BusinessTermsGroup\CreditTransfer;
-use Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\CreditTransfer;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
 
-class PayeePartyCreditorFinancialAccount extends \Dendreo\FacturX\DataType\BasicWL\PayeePartyCreditorFinancialAccount
+class PayeePartyCreditorFinancialAccount extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PayeePartyCreditorFinancialAccount
 {
     /**
      * BT-85.

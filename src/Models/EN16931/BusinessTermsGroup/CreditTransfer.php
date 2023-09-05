@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
-use Models\EN16931\DataType\Identifier\PaymentServiceProviderIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PaymentServiceProviderIdentifier;
 
 /**
  * BG-17

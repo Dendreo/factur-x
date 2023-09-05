@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Dendreo\FacturX\DataType\BasicWL\PostalTradeAddress;
-use Models\EN16931\BusinessTermsGroup\SellerTaxRepresentativeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PostalTradeAddress;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\SellerTaxRepresentativeParty;
 
 /**
  * BG-11.

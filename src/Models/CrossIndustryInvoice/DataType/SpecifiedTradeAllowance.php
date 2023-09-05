@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\DocumentLevelAllowance;
-use Models\EN16931\DataType\AllowanceReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\DocumentLevelAllowance;
+use Dendreo\FacturX\Models\EN16931\DataType\AllowanceReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-20.

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Dendreo\FacturX\DataType\AssociatedDocumentLineDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AssociatedDocumentLineDocument;
 
 /**
  * BG-25.

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
-use Models\EN16931\DataType\Identifier\DebitedAccountIdentifier;
-use Models\EN16931\DataType\Identifier\MandateReferenceIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\DebitedAccountIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\MandateReferenceIdentifier;
 
 /**
  * BG-19

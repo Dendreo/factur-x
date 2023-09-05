@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Models\EN16931\DataType\UnitOfMeasurement;
-use Models\EN16931\SemanticDataType\Quantity;
+use Dendreo\FacturX\Models\EN16931\DataType\UnitOfMeasurement;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Quantity;
 
 /**
  * BT-129 & BT-130.

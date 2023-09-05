@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
-use Models\EN16931\DataType\CountryAlpha2Code;
+use Dendreo\FacturX\Models\EN16931\DataType\CountryAlpha2Code;
 
 /**
  * BG-5 or BG-8 or BG-15.

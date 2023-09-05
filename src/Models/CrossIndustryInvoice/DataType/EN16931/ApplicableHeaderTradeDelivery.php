@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\ActualDeliverySupplyChainEvent;
-use Dendreo\FacturX\DataType\DespatchAdviceReferencedDocument;
-use Dendreo\FacturX\DataType\OccurrenceDateTime;
-use Dendreo\FacturX\DataType\ReceivingAdviceReferencedDocument;
-use Dendreo\FacturX\DataType\ShipToTradeParty;
-use Models\EN16931\BusinessTermsGroup\DeliveryInformation;
-use Models\EN16931\DataType\Reference\DespatchAdviceReference;
-use Models\EN16931\DataType\Reference\ReceivingAdviceReference;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ActualDeliverySupplyChainEvent;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DespatchAdviceReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\OccurrenceDateTime;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ReceivingAdviceReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ShipToTradeParty;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\DeliveryInformation;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\DespatchAdviceReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\ReceivingAdviceReference;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BG-13-00.
  */
-class ApplicableHeaderTradeDelivery extends \Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeDelivery
+class ApplicableHeaderTradeDelivery extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeDelivery
 {
     /**
      * BT-15-00.

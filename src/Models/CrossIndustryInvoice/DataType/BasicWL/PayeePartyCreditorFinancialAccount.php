@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\PaymentAccountIdentifier;
 
 /**
  * BG-17.

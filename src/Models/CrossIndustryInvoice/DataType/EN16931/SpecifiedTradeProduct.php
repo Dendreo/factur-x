@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\ApplicableProductCharacteristic;
-use Dendreo\FacturX\DataType\ClassCode;
-use Dendreo\FacturX\DataType\DesignatedProductClassification;
-use Dendreo\FacturX\DataType\OriginTradeCountry;
-use Models\EN16931\BusinessTermsGroup\ItemInformation;
-use Models\EN16931\DataType\Identifier\BuyerItemIdentifier;
-use Models\EN16931\DataType\Identifier\SellerItemIdentifier;
-use Models\EN16931\DataType\Identifier\StandardItemIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ApplicableProductCharacteristic;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ClassCode;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DesignatedProductClassification;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\OriginTradeCountry;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\ItemInformation;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BuyerItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\SellerItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\StandardItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BG-31.
  */
-class SpecifiedTradeProduct extends \Dendreo\FacturX\DataType\Basic\SpecifiedTradeProduct
+class SpecifiedTradeProduct extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SpecifiedTradeProduct
 {
     /**
      * BT-155.

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Dendreo\FacturX\DataType\BasicWL\PostalTradeAddress;
-use Models\EN16931\BusinessTermsGroup\DeliverToAddress;
-use Models\EN16931\BusinessTermsGroup\DeliveryInformation;
-use Models\EN16931\DataType\Identifier\LocationIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\PostalTradeAddress;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\DeliverToAddress;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\DeliveryInformation;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\LocationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BG-13.

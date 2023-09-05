@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
 /**
  * BT-42-00 or BT-57-00.

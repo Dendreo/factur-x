@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\BinaryObject;
-use Models\EN16931\DataType\Identifier\ObjectIdentifier;
-use Models\EN16931\DataType\MimeCode;
+use Dendreo\FacturX\Models\EN16931\DataType\BinaryObject;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ObjectIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\MimeCode;
 
 /**
  * BT-18-00.

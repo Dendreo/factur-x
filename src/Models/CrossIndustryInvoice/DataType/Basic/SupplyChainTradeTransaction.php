@@ -1,12 +1,12 @@
 <?php
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeAgreement;
-use Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeDelivery;
-use Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeSettlement;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeAgreement;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeDelivery;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeSettlement;
 
-class SupplyChainTradeTransaction extends \Dendreo\FacturX\DataType\BasicWL\SupplyChainTradeTransaction
+class SupplyChainTradeTransaction extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SupplyChainTradeTransaction
 {
     /**
      * BG-25.

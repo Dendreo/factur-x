@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Models\EN16931\DataType\Address;
-use Models\EN16931\DataType\CountryAlpha2Code;
+use Dendreo\FacturX\Models\EN16931\DataType\Address;
+use Dendreo\FacturX\Models\EN16931\DataType\CountryAlpha2Code;
 
 /**
  * BG-5 or BG-8 or BG-15.
  */
-class PostalTradeAddress extends \Dendreo\FacturX\DataType\Minimum\PostalTradeAddress
+class PostalTradeAddress extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\PostalTradeAddress
 {
     /**
      * BT-38 or BT-53 or BT-78.

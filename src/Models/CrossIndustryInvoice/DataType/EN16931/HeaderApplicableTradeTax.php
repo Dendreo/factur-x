@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\TaxPointDate;
-use Models\EN16931\BusinessTermsGroup\VatBreakdown;
-use Models\EN16931\DataType\DateCode2475;
-use Models\EN16931\DataType\VatCategory;
-use Models\EN16931\DataType\VatExoneration;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\TaxPointDate;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\VatBreakdown;
+use Dendreo\FacturX\Models\EN16931\DataType\DateCode2475;
+use Dendreo\FacturX\Models\EN16931\DataType\VatCategory;
+use Dendreo\FacturX\Models\EN16931\DataType\VatExoneration;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-23.
  */
-class HeaderApplicableTradeTax extends \Dendreo\FacturX\DataType\BasicWL\HeaderApplicableTradeTax
+class HeaderApplicableTradeTax extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\HeaderApplicableTradeTax
 {
     /**
      * BT-7-00.

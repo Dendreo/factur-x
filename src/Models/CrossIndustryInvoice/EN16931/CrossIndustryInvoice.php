@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\EN16931;
 
-use Dendreo\FacturX\DataType\BasicWL\ExchangedDocument;
-use Dendreo\FacturX\DataType\EN16931\SupplyChainTradeTransaction;
-use Dendreo\FacturX\DataType\ExchangedDocumentContext;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ExchangedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931\SupplyChainTradeTransaction;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ExchangedDocumentContext;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 class CrossIndustryInvoice
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\Identifier\InvoiceLineIdentifier;
-use Models\EN16931\DataType\Identifier\ObjectIdentifier;
-use Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
-use Models\EN16931\DataType\UnitOfMeasurement;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\Quantity;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\InvoiceLineIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\ObjectIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
+use Dendreo\FacturX\Models\EN16931\DataType\UnitOfMeasurement;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Quantity;
 
 /**
  * BG-25

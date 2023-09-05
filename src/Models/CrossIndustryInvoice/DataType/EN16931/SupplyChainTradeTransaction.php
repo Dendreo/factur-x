@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BG-25-00.
  */
-class SupplyChainTradeTransaction extends \Dendreo\FacturX\DataType\Basic\SupplyChainTradeTransaction
+class SupplyChainTradeTransaction extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SupplyChainTradeTransaction
 {
     public function __construct(
         ApplicableHeaderTradeAgreement $applicableHeaderTradeAgreement,

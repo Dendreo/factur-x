@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
-use Dendreo\FacturX\DataType\IssueDateTime;
-use Models\EN16931\DataType\Identifier\InvoiceIdentifier;
-use Models\EN16931\DataType\InvoiceTypeCode;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\IssueDateTime;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\InvoiceIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InvoiceTypeCode;
 
 /**
  * BT-1-00.

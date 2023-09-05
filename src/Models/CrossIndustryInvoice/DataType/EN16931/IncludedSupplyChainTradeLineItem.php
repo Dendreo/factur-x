@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\AssociatedDocumentLineDocument;
-use Dendreo\FacturX\DataType\Basic\SpecifiedLineTradeDelivery;
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AssociatedDocumentLineDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SpecifiedLineTradeDelivery;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
 
 /**
  * BG-25.
  */
-class IncludedSupplyChainTradeLineItem extends \Dendreo\FacturX\DataType\Basic\IncludedSupplyChainTradeLineItem
+class IncludedSupplyChainTradeLineItem extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\IncludedSupplyChainTradeLineItem
 {
     public function __construct(
         AssociatedDocumentLineDocument $associatedDocumentLineDocument,

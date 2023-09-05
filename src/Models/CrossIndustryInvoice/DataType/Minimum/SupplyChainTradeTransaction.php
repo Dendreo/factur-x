@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
 /**
  * BG-25-00.

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
-use Dendreo\FacturX\DataType\TaxTotalAmount;
-use Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\TaxTotalAmount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
 
 /**
  * BG-22.

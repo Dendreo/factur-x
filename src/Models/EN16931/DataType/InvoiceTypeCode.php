@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType;
+namespace Dendreo\FacturX\Models\EN16931\DataType;
 
 /**
  * UNTDID 1001 - Document type (BT-3)

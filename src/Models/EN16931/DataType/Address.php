@@ -1,6 +1,6 @@
 <?php
 
-namespace Models\EN16931\DataType;
+namespace Dendreo\FacturX\Models\EN16931\DataType;
 
 interface Address
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dendreo\Factur-X;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice;
 
 class FacturXAttachment
 {

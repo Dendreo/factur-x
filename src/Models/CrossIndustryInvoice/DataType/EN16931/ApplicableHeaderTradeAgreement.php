@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\AdditionalReferencedDocumentAdditionalSupportingDocument;
-use Dendreo\FacturX\DataType\AdditionalReferencedDocumentInvoicedObjectIdentifier;
-use Dendreo\FacturX\DataType\AdditionalReferencedDocumentTenderOrLotReference;
-use Dendreo\FacturX\DataType\BuyerOrderReferencedDocument;
-use Dendreo\FacturX\DataType\ContractReferencedDocument;
-use Dendreo\FacturX\DataType\SellerOrderReferencedDocument;
-use Dendreo\FacturX\DataType\SellerTaxRepresentativeTradeParty;
-use Dendreo\FacturX\DataType\SpecifiedProcuringProject;
-use Models\EN16931\BusinessTermsGroup\SellerTaxRepresentativeParty;
-use Models\EN16931\DataType\Reference\ContractReference;
-use Models\EN16931\DataType\Reference\ProjectReference;
-use Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
-use Models\EN16931\DataType\Reference\SalesOrderReference;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AdditionalReferencedDocumentAdditionalSupportingDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AdditionalReferencedDocumentInvoicedObjectIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AdditionalReferencedDocumentTenderOrLotReference;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BuyerOrderReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ContractReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SellerOrderReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SellerTaxRepresentativeTradeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedProcuringProject;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\SellerTaxRepresentativeParty;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\ContractReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\ProjectReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\SalesOrderReference;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BT-10-00.
  */
-class ApplicableHeaderTradeAgreement extends \Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeAgreement
+class ApplicableHeaderTradeAgreement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeAgreement
 {
     /**
      * BT-14-00.

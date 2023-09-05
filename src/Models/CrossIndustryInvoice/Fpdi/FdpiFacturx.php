@@ -1,15 +1,6 @@
 <?php
 
-/*
- * This file is part of PHP Factur-X library.
- *
- * (c) Lucas Gouy-Pailler <lucas.gouypailler@atgp.net>
- *
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
- */
-
-namespace Dendreo\FacturX\Fpdi;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\Fpdi;
 
 use UConverter;
 

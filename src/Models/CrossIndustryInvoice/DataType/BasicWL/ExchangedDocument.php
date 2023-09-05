@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\DocumentIncludedNote;
-use Dendreo\FacturX\DataType\IssueDateTime;
-use Models\EN16931\DataType\Identifier\InvoiceIdentifier;
-use Models\EN16931\DataType\InvoiceNoteCode;
-use Models\EN16931\DataType\InvoiceTypeCode;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\DocumentIncludedNote;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\IssueDateTime;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\InvoiceIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InvoiceNoteCode;
+use Dendreo\FacturX\Models\EN16931\DataType\InvoiceTypeCode;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BT-1-00.
  */
-class ExchangedDocument extends \Dendreo\FacturX\DataType\Minimum\ExchangedDocument
+class ExchangedDocument extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\ExchangedDocument
 {
     protected const XML_NODE = 'rsm:ExchangedDocument';
 

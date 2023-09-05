@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
-use Dendreo\FacturX\DataType\BuyerOrderReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BuyerOrderReferencedDocument;
 
 /**
  * BT-10-00.

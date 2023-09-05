@@ -1,10 +1,10 @@
 <?php
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Dendreo\FacturX\DataType\ChargeIndicator;
-use Models\EN16931\DataType\ChargeReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ChargeIndicator;
+use Dendreo\FacturX\Models\EN16931\DataType\ChargeReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
 
 /**
  * BG-28.

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\BuyerContact;
-use Models\EN16931\BusinessTermsGroup\SellerContact;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\BuyerContact;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\SellerContact;
 
 /**
  * BG-9 or BG-6.

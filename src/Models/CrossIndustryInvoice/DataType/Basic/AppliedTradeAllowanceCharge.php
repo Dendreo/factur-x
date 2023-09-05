@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Dendreo\FacturX\DataType\AllowanceIndicator;
-use Models\EN16931\BusinessTermsGroup\PriceDetails;
-use Models\EN16931\SemanticDataType\UnitPriceAmount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AllowanceIndicator;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\PriceDetails;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\UnitPriceAmount;
 
 /**
  * BT-147-00.

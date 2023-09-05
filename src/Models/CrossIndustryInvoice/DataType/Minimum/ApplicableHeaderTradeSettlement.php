@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Minimum;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum;
 
-use Models\EN16931\DataType\CurrencyCode;
+use Dendreo\FacturX\Models\EN16931\DataType\CurrencyCode;
 
 /**
  * BG-19.

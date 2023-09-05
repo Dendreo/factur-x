@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\BusinessTermsGroup;
+namespace Dendreo\FacturX\Models\EN16931\BusinessTermsGroup;
 
-use Models\EN16931\DataType\VatCategory;
-use Models\EN16931\DataType\VatExoneration;
-use Models\EN16931\SemanticDataType\Amount;
-use Models\EN16931\SemanticDataType\DecimalNumber;
-use Models\EN16931\SemanticDataType\IntegerNumber;
-use Models\EN16931\SemanticDataType\Percentage;
+use Dendreo\FacturX\Models\EN16931\DataType\VatCategory;
+use Dendreo\FacturX\Models\EN16931\DataType\VatExoneration;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\DecimalNumber;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\IntegerNumber;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Percentage;
 
 /**
  * BG-23

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
-use Models\EN16931\DataType\InternationalCodeDesignator;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\LegalRegistrationIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\InternationalCodeDesignator;
 
 /**
  * BT-47-00.
  */
-class BuyerSpecifiedLegalOrganization extends \Dendreo\FacturX\DataType\Minimum\BuyerSpecifiedLegalOrganization
+class BuyerSpecifiedLegalOrganization extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\BuyerSpecifiedLegalOrganization
 {
     /**
      * BT-45.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Dendreo\Factur-X;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice;
 
-use Dendreo\FacturX\FacturXAttachment;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\FacturXAttachment;
 use Dendreo\FacturX\Fpdi\FdpiFacturx;
 use setasign\Fpdi\PdfParser\StreamReader;
 use Smalot\PdfParser\Parser;
@@ -221,7 +221,7 @@ class FacturX
         }
 
         $xsdFilename = self::FACTURX_PROFIL_TO_XSD[$profile];
-        $xsdFile = resource_path("xsds/cross_industry_invoice/$xsdFilename");
+        $xsdFile = __DIR__ . "/../../resources/xsds/cross_industry_invoice/$xsdFilename";
 
         try {
             libxml_use_internal_errors(true);
@@ -307,7 +307,7 @@ class FacturX
         $pdfWriter->set_pdf_metadata_infos($pdf_metadata_infos);
 
         /** @var \SimpleXMLElement $xmp */
-        $xmp = simplexml_load_file(resource_path("xmp/".static::FACTURX_XMP));
+        $xmp = simplexml_load_file(__DIR__ . "/../../resources/xmp/".static::FACTURX_XMP);
         $descriptionElements = $xmp->xpath('rdf:Description');
 
         if (!$descriptionElements) {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\DataType\Identifier\MandateReferenceIdentifier;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\MandateReferenceIdentifier;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BT-20-00.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
 
 /**
  * BT-129-00.

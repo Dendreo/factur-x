@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\BillingSpecifiedPeriod;
-use Dendreo\FacturX\DataType\InvoiceReferencedDocument;
-use Dendreo\FacturX\DataType\PayeeTradeParty;
-use Dendreo\FacturX\DataType\ReceivableSpecifiedTradeAccountingAccount;
-use Dendreo\FacturX\DataType\SpecifiedTradeAllowance;
-use Dendreo\FacturX\DataType\SpecifiedTradeCharge;
-use Dendreo\FacturX\DataType\SpecifiedTradePaymentTerms;
-use Models\EN16931\BusinessTermsGroup\InvoicingPeriod;
-use Models\EN16931\BusinessTermsGroup\Payee;
-use Models\EN16931\BusinessTermsGroup\PaymentInstructions;
-use Models\EN16931\Converter\DateCode2005ToDateCode2475Converter;
-use Models\EN16931\DataType\CurrencyCode;
-use Models\EN16931\DataType\DateCode2005;
-use Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
-use Models\EN16931\Invoice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BillingSpecifiedPeriod;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\InvoiceReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\PayeeTradeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ReceivableSpecifiedTradeAccountingAccount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradeAllowance;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradeCharge;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradePaymentTerms;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoicingPeriod;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\Payee;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\PaymentInstructions;
+use Dendreo\FacturX\Models\EN16931\Converter\DateCode2005ToDateCode2475Converter;
+use Dendreo\FacturX\Models\EN16931\DataType\CurrencyCode;
+use Dendreo\FacturX\Models\EN16931\DataType\DateCode2005;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
+use Dendreo\FacturX\Models\EN16931\Invoice;
 
 /**
  * BG-19.
  */
-class ApplicableHeaderTradeSettlement extends \Dendreo\FacturX\DataType\BasicWL\ApplicableHeaderTradeSettlement
+class ApplicableHeaderTradeSettlement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\ApplicableHeaderTradeSettlement
 {
     public function __construct(
         CurrencyCode $invoiceCurrencyCode,
@@ -47,7 +47,7 @@ class ApplicableHeaderTradeSettlement extends \Dendreo\FacturX\DataType\BasicWL\
         parent::__construct($invoiceCurrencyCode, $specifiedTradeSettlementHeaderMonetarySummation, $applicableTradeTaxes);
     }
 
-    public function setSpecifiedTradeSettlementPaymentMeans(SpecifiedTradeSettlementPaymentMeans|\Dendreo\FacturX\DataType\BasicWL\SpecifiedTradeSettlementPaymentMeans|null $specifiedTradeSettlementPaymentMeans): static
+    public function setSpecifiedTradeSettlementPaymentMeans(SpecifiedTradeSettlementPaymentMeans|Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL\SpecifiedTradeSettlementPaymentMeans|null $specifiedTradeSettlementPaymentMeans): static
     {
         if (null !== $specifiedTradeSettlementPaymentMeans && !$specifiedTradeSettlementPaymentMeans instanceof SpecifiedTradeSettlementPaymentMeans) {
             throw new \TypeError();

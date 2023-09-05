@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\PayerPartyDebtorFinancialAccount;
-use Models\EN16931\DataType\PaymentMeansCode;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\PayerPartyDebtorFinancialAccount;
+use Dendreo\FacturX\Models\EN16931\DataType\PaymentMeansCode;
 
 /**
  * BG-16.

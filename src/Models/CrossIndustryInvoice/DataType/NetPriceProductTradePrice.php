@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Dendreo\FacturX\DataType\Basic\BasisQuantity;
-use Models\EN16931\BusinessTermsGroup\PriceDetails;
-use Models\EN16931\SemanticDataType\UnitPriceAmount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\BasisQuantity;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\PriceDetails;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\UnitPriceAmount;
 
 /**
  * BT-146-00.

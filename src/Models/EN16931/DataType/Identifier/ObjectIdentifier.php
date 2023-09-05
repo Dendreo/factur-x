@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Models\EN16931\DataType\Identifier;
+namespace Dendreo\FacturX\Models\EN16931\DataType\Identifier;
 
-use Models\EN16931\DataType\ObjectSchemeCode;
+use Dendreo\FacturX\Models\EN16931\DataType\ObjectSchemeCode;
 
 class ObjectIdentifier
 {

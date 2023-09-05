@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\EN16931;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\EN16931;
 
-use Dendreo\FacturX\DataType\Basic\GrossPriceProductTradePrice;
-use Dendreo\FacturX\DataType\LineBuyerOrderReferencedDocument;
-use Dendreo\FacturX\DataType\NetPriceProductTradePrice;
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
-use Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\GrossPriceProductTradePrice;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\LineBuyerOrderReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\NetPriceProductTradePrice;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
 
 /**
  * BG-29.
  */
-class SpecifiedLineTradeAgreement extends \Dendreo\FacturX\DataType\Basic\SpecifiedLineTradeAgreement
+class SpecifiedLineTradeAgreement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic\SpecifiedLineTradeAgreement
 {
     /**
      * BT-132-00.

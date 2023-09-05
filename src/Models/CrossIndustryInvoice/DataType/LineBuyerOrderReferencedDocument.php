@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\InvoiceLine;
-use Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLine;
+use Dendreo\FacturX\Models\EN16931\DataType\Reference\PurchaseOrderLineReference;
 
 /**
  * BT-132-00.

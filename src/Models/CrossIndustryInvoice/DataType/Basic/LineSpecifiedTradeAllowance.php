@@ -1,10 +1,10 @@
 <?php
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Dendreo\FacturX\DataType\AllowanceIndicator;
-use Models\EN16931\DataType\AllowanceReasonCode;
-use Models\EN16931\SemanticDataType\Amount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\AllowanceIndicator;
+use Dendreo\FacturX\Models\EN16931\DataType\AllowanceReasonCode;
+use Dendreo\FacturX\Models\EN16931\SemanticDataType\Amount;
 
 /**
  * BG-27.

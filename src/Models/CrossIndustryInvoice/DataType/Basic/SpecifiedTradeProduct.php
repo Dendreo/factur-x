@@ -1,8 +1,8 @@
 <?php
 
-namespace Dendreo\FacturX\DataType\Basic;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Basic;
 
-use Models\EN16931\DataType\Identifier\StandardItemIdentifier;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\StandardItemIdentifier;
 
 /**
  * BG-31.

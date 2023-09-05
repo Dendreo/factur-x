@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\BuyerOrderReferencedDocument;
-use Dendreo\FacturX\DataType\ContractReferencedDocument;
-use Dendreo\FacturX\DataType\SellerTaxRepresentativeTradeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BuyerOrderReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ContractReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SellerTaxRepresentativeTradeParty;
 
 /**
  * BT-10-00.
  */
-class ApplicableHeaderTradeAgreement extends \Dendreo\FacturX\DataType\Minimum\ApplicableHeaderTradeAgreement
+class ApplicableHeaderTradeAgreement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\ApplicableHeaderTradeAgreement
 {
     /**
      * BG-11.

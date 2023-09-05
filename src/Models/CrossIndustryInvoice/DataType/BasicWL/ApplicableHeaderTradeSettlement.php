@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType\BasicWL;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BasicWL;
 
-use Dendreo\FacturX\DataType\BillingSpecifiedPeriod;
-use Dendreo\FacturX\DataType\InvoiceReferencedDocument;
-use Dendreo\FacturX\DataType\PayeeTradeParty;
-use Dendreo\FacturX\DataType\ReceivableSpecifiedTradeAccountingAccount;
-use Dendreo\FacturX\DataType\SpecifiedTradeAllowance;
-use Dendreo\FacturX\DataType\SpecifiedTradeCharge;
-use Dendreo\FacturX\DataType\SpecifiedTradePaymentTerms;
-use Models\EN16931\DataType\CurrencyCode;
-use Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\BillingSpecifiedPeriod;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\InvoiceReferencedDocument;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\PayeeTradeParty;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\ReceivableSpecifiedTradeAccountingAccount;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradeAllowance;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradeCharge;
+use Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\SpecifiedTradePaymentTerms;
+use Dendreo\FacturX\Models\EN16931\DataType\CurrencyCode;
+use Dendreo\FacturX\Models\EN16931\DataType\Identifier\BankAssignedCreditorIdentifier;
 
 /**
  * BG-19.
  */
-class ApplicableHeaderTradeSettlement extends \Dendreo\FacturX\DataType\Minimum\ApplicableHeaderTradeSettlement
+class ApplicableHeaderTradeSettlement extends \Dendreo\FacturX\Models\CrossIndustryInvoice\DataType\Minimum\ApplicableHeaderTradeSettlement
 {
     /**
      * BT-90.

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dendreo\FacturX\DataType;
+namespace Dendreo\FacturX\Models\CrossIndustryInvoice\DataType;
 
-use Models\EN16931\BusinessTermsGroup\InvoiceLinePeriod;
-use Models\EN16931\BusinessTermsGroup\InvoicingPeriod;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoiceLinePeriod;
+use Dendreo\FacturX\Models\EN16931\BusinessTermsGroup\InvoicingPeriod;
 
 /**
  * BG-14.
