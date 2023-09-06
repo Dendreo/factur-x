@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace Dendreo\FacturX\Models\CrossIndustryInvoice;
 
-use Dendreo\FacturX\Models\CrossIndustryInvoice\FacturXAttachment;
+
 use Dendreo\FacturX\Models\CrossIndustryInvoice\Fpdi\FdpiFacturx;
+use Illuminate\Http\Response;
 use setasign\Fpdi\PdfParser\StreamReader;
 use Smalot\PdfParser\Parser;
+
 class FacturX
 {
     private const FACTURX_FILENAME = 'factur-x.xml';
@@ -135,7 +137,18 @@ class FacturX
         $pdfWriter->SetPDFVersion('1.7', true);
         $pdfWriter = $this->updatePdfMetadata($pdfWriter, $document);
 
-        return $pdfWriter->Output('D', 'invoice-facturx-' . date('Ymdhis') . '.pdf');
+        return $pdfWriter->Output('S');
+    }
+
+    public function download()
+    {
+        $output = $this->getPdfContent();
+        return new Response($output, 200, [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' =>  'attachment; filename="invoice-facturx-' . date('Ymdhis') . '.pdf',
+            'Cache-Control' => 'private, max-age=0, must-revalidate',
+            'Content-Length' => strlen($output),
+        ]);
     }
 
     public function addFacturxLogo(): void
