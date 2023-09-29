@@ -10,7 +10,7 @@ use Illuminate\Http\Response;
 use setasign\Fpdi\PdfParser\StreamReader;
 use Smalot\PdfParser\Parser;
 
-class FacturX
+class Facturx
 {
     private const FACTURX_FILENAME = 'factur-x.xml';
 
