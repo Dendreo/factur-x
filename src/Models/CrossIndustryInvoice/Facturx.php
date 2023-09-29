@@ -140,12 +140,13 @@ class Facturx
         return $pdfWriter->Output('S');
     }
 
-    public function download()
+    public function download($filename = null)
     {
+        $filename = $filename ?? 'invoice-facturx-' . date('Ymdhis') . '.pdf';
         $output = $this->getPdfContent();
         return new Response($output, 200, [
             'Content-Type' => 'application/pdf',
-            'Content-Disposition' =>  'attachment; filename="invoice-facturx-' . date('Ymdhis') . '.pdf',
+            'Content-Disposition' =>  'attachment; filename="'.$filename.'"',
             'Cache-Control' => 'private, max-age=0, must-revalidate',
             'Content-Length' => strlen($output),
         ]);
