@@ -156,8 +156,19 @@ class FdpiFacturx extends \setasign\Fpdi\Fpdi
         }
         $this->_put('/Type /EmbeddedFile');
         if (is_string($file_info['file']) && is_file($file_info['file'])) {
-            $fc = file_get_contents($file_info['file']);
-            $md = date('YmdHis', filemtime($file_info['file']));
+            // Vérifier que le chemin est sécurisé (pas d'URL)
+            if (preg_match('#^(https?|ftp)://#i', $file_info['file'])) {
+                $this->Error('URLs not allowed as file input');
+            }
+
+            // Utiliser realpath pour s'assurer que le fichier existe réellement dans le système de fichiers
+            $real_path = realpath($file_info['file']);
+            if ($real_path === false) {
+                $this->Error('Cannot find file: '.$file_info['file']);
+            }
+
+            $fc = file_get_contents($real_path);
+            $md = date('YmdHis', filemtime($real_path));
         } else {
             $stream = $file_info['file']->getStream();
             \fseek($stream, 0);
